@@ -35,7 +35,7 @@ steps:
   inputs:
     command: 'custom'
     workingDir: '$(Build.SourcesDirectory)'
-    customCommand: 'run prod'
+    customCommand: 'run build'
   displayName: 'npm build'
 
 - task: CopyFiles@2
